@@ -13,7 +13,8 @@ This is a file developed by me to detect the snoring of a person. I want to ment
     averaging filter, with moving window as mentioned in the paper is very much effective in doing such work.
     
 3.  If you want to use the FFT technique as in this app, you are free to use, but on one condition. Let me know what all are the 
-    shortcomings, what can be done to improve it. Also let me know if there are bugs in the algorithm :)
+    shortcomings, what can be done to improve it. Also let me know if there are bugs in the algorithm :) ALSO, SINCE ASYNC TASKS 
+    ARE EXECUTING THE FFT PARALLELY, THE OUTPUT THAT THE PERSON IS SNORING IS DELAYED.
     
 4.  In app, there are 2 buttons. Start will start recording and start plotting Amplitude by default. But once the second button is
     activated, you can change between the Frequency and Amplitude plot. The plotting is done by GraphView library. Not because it
